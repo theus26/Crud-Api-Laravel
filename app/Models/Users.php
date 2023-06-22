@@ -9,7 +9,7 @@ class Users extends Model
 {
     use HasFactory;
 
-    protected $table = 'users';
+    protected $table = 'bd_agenda_telefonica';
 
     protected $fillable = [
         'name',
