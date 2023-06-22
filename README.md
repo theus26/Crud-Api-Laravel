@@ -20,8 +20,9 @@ Certifique-se de ter o compose, xamp e o php instalado em seu sistema antes de e
 ## Configuração
 
 1. Faça o clone deste repositório para o seu ambiente local.
-2. Navegue até o diretório raiz do projeto.
-3. Execute o seguinte comando para instalar as dependências:
+2. Execute no xamp, o *Apache*  e o *MySql*
+3. Navegue até o diretório raiz do projeto.
+4. Execute o seguinte comando para instalar as dependências:
 
 
 1. Clone o repositório:
@@ -29,8 +30,13 @@ Certifique-se de ter o compose, xamp e o php instalado em seu sistema antes de e
 ```
 git clone https://github.com/theus26/Crud-Api-Laravel
 ```
+2. Executando o xamp
 
-2. Acesse o diretório do projeto:
+```
+Start a aplicação
+```
+
+3. Acesse o diretório do projeto:
 
 ```
 cd seu-repositorio
