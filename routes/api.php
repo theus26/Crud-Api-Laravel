@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\AgendaTelefonicaController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -18,7 +19,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-//Exemplo de teste
-Route::get('agenda',function(){
-    return 'I am alive';
-});
+
+
+Route::get('HelthCheck', [AgendaTelefonicaController::class, 'HelthCheck']);
+
+Route::get('get', [AgendaTelefonicaController::class, 'Get']);
